@@ -34,7 +34,7 @@ function findTheCheese (foods) {
 
 /*
 function findTheCheese (foods) {
-  var cheese = ["cheddar", "gouda", "camembert"];  // first created a cheese variable
+  var cheese = ["cheddar", "gouda", "camembert", "swiss"];  // first created a cheese variable
   for (var i = 0; i < foods.length; i++) {         // use for loop for foods with i
     for (var j = 0; j < cheese.length; j++) {      // use for loop for cheese with j
       if (foods[i] === cheese[j]) {                // if one of foods element is equal to one of foods element
@@ -45,3 +45,14 @@ function findTheCheese (foods) {
   return "no cheese!"                              // if there is no matching with foods element and cheese element, return "no cheese!"
 }
 */
+
+function findword(names) {
+  var names = ["Bill", "James", "Linda"]
+  var name = []
+    for (var j = 0; j < wordB.length; j++) {
+      if (names[i].startsWith("b")) {
+        name.push(names[i])
+      }
+    }
+  } return name
+}
